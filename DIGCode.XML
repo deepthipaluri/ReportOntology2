@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tells uri="" xmlns="http://dl.kr.org/dig/2003/02/lang">
+    <defconcept name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Science"/>
+    <impliesc>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Science"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Activities"/>
+    </impliesc>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Science"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Science"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Science"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Science"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Music"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Science"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#MotorSkills"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Science"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Social"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Science"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#ComputerLab"/>
+    </disjoint>
+    <defconcept name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Activities"/>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Activities"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Child"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Activities"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teacher"/>
+    </disjoint>
+    <defconcept name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts"/>
+    <impliesc>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Activities"/>
+    </impliesc>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Music"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#MotorSkills"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Science"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Social"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#ComputerLab"/>
+    </disjoint>
+    <defconcept name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts"/>
+    <impliesc>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Activities"/>
+    </impliesc>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Music"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#MotorSkills"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Science"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Social"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#ComputerLab"/>
+    </disjoint>
+    <defconcept name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills"/>
+    <impliesc>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Activities"/>
+    </impliesc>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Music"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#MotorSkills"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Science"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Social"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#ComputerLab"/>
+    </disjoint>
+    <defconcept name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Music"/>
+    <impliesc>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Music"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Activities"/>
+    </impliesc>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Music"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Music"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Music"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Music"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#MotorSkills"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Music"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Science"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Music"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Social"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Music"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#ComputerLab"/>
+    </disjoint>
+    <defconcept name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#MotorSkills"/>
+    <impliesc>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#MotorSkills"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Activities"/>
+    </impliesc>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#MotorSkills"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#MotorSkills"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#MotorSkills"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#MotorSkills"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Music"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#MotorSkills"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Science"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#MotorSkills"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Social"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#MotorSkills"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#ComputerLab"/>
+    </disjoint>
+    <defconcept name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Social"/>
+    <impliesc>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Social"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Activities"/>
+    </impliesc>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Social"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Social"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Social"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Social"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Music"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Social"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#MotorSkills"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Social"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Science"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Social"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#ComputerLab"/>
+    </disjoint>
+    <defconcept name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#ComputerLab"/>
+    <impliesc>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#ComputerLab"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Activities"/>
+    </impliesc>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#ComputerLab"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#ComputerLab"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#ComputerLab"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#ComputerLab"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Music"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#ComputerLab"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#MotorSkills"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#ComputerLab"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Science"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#ComputerLab"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Social"/>
+    </disjoint>
+    <defconcept name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Child"/>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Child"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teacher"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Child"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Activities"/>
+    </disjoint>
+    <defconcept name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teacher"/>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teacher"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Activities"/>
+    </disjoint>
+    <disjoint>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teacher"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Child"/>
+    </disjoint>
+    <defattribute name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#HasName"/>
+    <domain>
+        <attribute name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#HasName"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Child"/>
+    </domain>
+    <rangestring>
+        <attribute name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#HasName"/>
+    </rangestring>
+    <functional>
+        <attribute name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#HasName"/>
+    </functional>
+    <defattribute name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Age"/>
+    <domain>
+        <attribute name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Age"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Child"/>
+    </domain>
+    <rangeint>
+        <attribute name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Age"/>
+    </rangeint>
+    <functional>
+        <attribute name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Age"/>
+    </functional>
+    <defrole name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Learns"/>
+    <domain>
+        <ratom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Learns"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Child"/>
+    </domain>
+    <range>
+        <ratom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Learns"/>
+        <or>
+            <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Activities"/>
+        </or>
+    </range>
+    <defrole name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teaches"/>
+    <domain>
+        <ratom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teaches"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teacher"/>
+    </domain>
+    <range>
+        <ratom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teaches"/>
+        <or>
+            <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Activities"/>
+        </or>
+    </range>
+    <equalr>
+        <ratom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teaches"/>
+        <inverse>
+            <ratom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#IsTaughtBy"/>
+        </inverse>
+    </equalr>
+    <defrole name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#IsTaughtBy"/>
+    <domain>
+        <ratom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#IsTaughtBy"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Activities"/>
+    </domain>
+    <range>
+        <ratom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#IsTaughtBy"/>
+        <or>
+            <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teacher"/>
+        </or>
+    </range>
+    <equalr>
+        <ratom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#IsTaughtBy"/>
+        <inverse>
+            <ratom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teaches"/>
+        </inverse>
+    </equalr>
+    <functional>
+        <ratom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#IsTaughtBy"/>
+    </functional>
+    <defindividual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Acti1"/>
+    <instanceof>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Acti1"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Activities"/>
+    </instanceof>
+    <related>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Acti1"/>
+        <ratom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#IsTaughtBy"/>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teacher_1"/>
+    </related>
+    <defindividual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teacher_1"/>
+    <instanceof>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teacher_1"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teacher"/>
+    </instanceof>
+    <related>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teacher_1"/>
+        <ratom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teaches"/>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Acti1"/>
+    </related>
+    <defindividual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Child_1"/>
+    <instanceof>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Child_1"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Child"/>
+    </instanceof>
+    <related>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Child_1"/>
+        <ratom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Learns"/>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Acti1"/>
+    </related>
+    <defindividual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts1"/>
+    <instanceof>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts1"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts"/>
+    </instanceof>
+    <related>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#LanguageArts1"/>
+        <ratom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#IsTaughtBy"/>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teacher_1"/>
+    </related>
+    <defindividual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts2"/>
+    <instanceof>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts2"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts"/>
+    </instanceof>
+    <related>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CreativeArts2"/>
+        <ratom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#IsTaughtBy"/>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teacher_1"/>
+    </related>
+    <defindividual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Child_2"/>
+    <instanceof>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Child_2"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Child"/>
+    </instanceof>
+    <defindividual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills3"/>
+    <instanceof>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills3"/>
+        <catom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills"/>
+    </instanceof>
+    <related>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#CognitiveSkills3"/>
+        <ratom name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#IsTaughtBy"/>
+        <individual name="http://www.owl-ontologies.com/OntologyTeaRepo.owl#Teacher_1"/>
+    </related>
+</tells>
