@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY swrl "http://www.w3.org/2003/11/swrl#" >
+    <!ENTITY swrlb "http://www.w3.org/2003/11/swrlb#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY protege "http://protege.stanford.edu/plugins/owl/protege#" >
+    <!ENTITY xsp "http://www.owl-ontologies.com/2005/08/07/xsp.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.owl-ontologies.com/OntologyTeaRepo.owl#"
+     xml:base="http://www.owl-ontologies.com/OntologyTeaRepo.owl"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about=""/>
+    <Activities rdf:ID="Acti1">
+        <IsTaughtBy rdf:resource="#Teacher_1"/>
+    </Activities>
+    <owl:Class rdf:ID="Activities">
+        <owl:disjointWith rdf:resource="#Child"/>
+        <owl:disjointWith rdf:resource="#Teacher"/>
+    </owl:Class>
+    <owl:FunctionalProperty rdf:ID="Age">
+        <rdf:type rdf:resource="&owl;DatatypeProperty"/>
+        <rdfs:domain rdf:resource="#Child"/>
+        <rdfs:range>
+            <owl:DataRange>
+                <owl:oneOf>
+                    <rdf:List>
+                        <rdf:first rdf:datatype="&xsd;int">3</rdf:first>
+                        <rdf:rest>
+                            <rdf:List>
+                                <rdf:first rdf:datatype="&xsd;int">4</rdf:first>
+                                <rdf:rest>
+                                    <rdf:List>
+                                        <rdf:first rdf:datatype="&xsd;int">5</rdf:first>
+                                        <rdf:rest rdf:resource="&rdf;nil"/>
+                                    </rdf:List>
+                                </rdf:rest>
+                            </rdf:List>
+                        </rdf:rest>
+                    </rdf:List>
+                </owl:oneOf>
+            </owl:DataRange>
+        </rdfs:range>
+    </owl:FunctionalProperty>
+    <owl:Class rdf:ID="Child">
+        <owl:disjointWith rdf:resource="#Activities"/>
+        <owl:disjointWith rdf:resource="#Teacher"/>
+    </owl:Class>
+    <Child rdf:ID="Child_1">
+        <Learns rdf:resource="#Acti1"/>
+    </Child>
+    <Child rdf:ID="Child_2"/>
+    <owl:Class rdf:ID="CognitiveSkills">
+        <rdfs:subClassOf rdf:resource="#Activities"/>
+        <owl:disjointWith rdf:resource="#ComputerLab"/>
+        <owl:disjointWith rdf:resource="#CreativeArts"/>
+        <owl:disjointWith rdf:resource="#LanguageArts"/>
+        <owl:disjointWith rdf:resource="#MotorSkills"/>
+        <owl:disjointWith rdf:resource="#Music"/>
+        <owl:disjointWith rdf:resource="#Science"/>
+        <owl:disjointWith rdf:resource="#Social"/>
+    </owl:Class>
+    <CognitiveSkills rdf:ID="CognitiveSkills3">
+        <IsTaughtBy rdf:resource="#Teacher_1"/>
+    </CognitiveSkills>
+    <owl:Class rdf:ID="ComputerLab">
+        <rdfs:subClassOf rdf:resource="#Activities"/>
+        <owl:disjointWith rdf:resource="#CognitiveSkills"/>
+        <owl:disjointWith rdf:resource="#CreativeArts"/>
+        <owl:disjointWith rdf:resource="#LanguageArts"/>
+        <owl:disjointWith rdf:resource="#MotorSkills"/>
+        <owl:disjointWith rdf:resource="#Music"/>
+        <owl:disjointWith rdf:resource="#Science"/>
+        <owl:disjointWith rdf:resource="#Social"/>
+    </owl:Class>
+    <owl:Class rdf:ID="CreativeArts">
+        <rdfs:subClassOf rdf:resource="#Activities"/>
+        <owl:disjointWith rdf:resource="#CognitiveSkills"/>
+        <owl:disjointWith rdf:resource="#ComputerLab"/>
+        <owl:disjointWith rdf:resource="#LanguageArts"/>
+        <owl:disjointWith rdf:resource="#MotorSkills"/>
+        <owl:disjointWith rdf:resource="#Music"/>
+        <owl:disjointWith rdf:resource="#Science"/>
+        <owl:disjointWith rdf:resource="#Social"/>
+    </owl:Class>
+    <CreativeArts rdf:ID="CreativeArts2">
+        <IsTaughtBy rdf:resource="#Teacher_1"/>
+    </CreativeArts>
+    <owl:FunctionalProperty rdf:ID="HasName">
+        <rdf:type rdf:resource="&owl;DatatypeProperty"/>
+        <rdfs:domain rdf:resource="#Child"/>
+        <rdfs:range>
+            <owl:DataRange>
+                <owl:oneOf>
+                    <rdf:List>
+                        <rdf:first rdf:datatype="&xsd;string">Bella</rdf:first>
+                        <rdf:rest>
+                            <rdf:List>
+                                <rdf:first rdf:datatype="&xsd;string">Amy</rdf:first>
+                                <rdf:rest>
+                                    <rdf:List>
+                                        <rdf:first rdf:datatype="&xsd;string">Cara</rdf:first>
+                                        <rdf:rest rdf:resource="&rdf;nil"/>
+                                    </rdf:List>
+                                </rdf:rest>
+                            </rdf:List>
+                        </rdf:rest>
+                    </rdf:List>
+                </owl:oneOf>
+            </owl:DataRange>
+        </rdfs:range>
+    </owl:FunctionalProperty>
+    <owl:ObjectProperty rdf:ID="IsTaughtBy">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="#Activities"/>
+        <owl:inverseOf rdf:resource="#Teaches"/>
+        <rdfs:range rdf:resource="#Teacher"/>
+    </owl:ObjectProperty>
+    <owl:Class rdf:ID="LanguageArts">
+        <rdfs:subClassOf rdf:resource="#Activities"/>
+        <owl:disjointWith rdf:resource="#CognitiveSkills"/>
+        <owl:disjointWith rdf:resource="#ComputerLab"/>
+        <owl:disjointWith rdf:resource="#CreativeArts"/>
+        <owl:disjointWith rdf:resource="#MotorSkills"/>
+        <owl:disjointWith rdf:resource="#Music"/>
+        <owl:disjointWith rdf:resource="#Science"/>
+        <owl:disjointWith rdf:resource="#Social"/>
+    </owl:Class>
+    <owl:ObjectProperty rdf:ID="Learns">
+        <rdfs:domain rdf:resource="#Child"/>
+        <rdfs:range rdf:resource="#Activities"/>
+    </owl:ObjectProperty>
+    <owl:Class rdf:ID="MotorSkills">
+        <rdfs:subClassOf rdf:resource="#Activities"/>
+        <owl:disjointWith rdf:resource="#CognitiveSkills"/>
+        <owl:disjointWith rdf:resource="#ComputerLab"/>
+        <owl:disjointWith rdf:resource="#CreativeArts"/>
+        <owl:disjointWith rdf:resource="#LanguageArts"/>
+        <owl:disjointWith rdf:resource="#Music"/>
+        <owl:disjointWith rdf:resource="#Science"/>
+        <owl:disjointWith rdf:resource="#Social"/>
+    </owl:Class>
+    <owl:Class rdf:ID="Music">
+        <rdfs:subClassOf rdf:resource="#Activities"/>
+        <owl:disjointWith rdf:resource="#CognitiveSkills"/>
+        <owl:disjointWith rdf:resource="#ComputerLab"/>
+        <owl:disjointWith rdf:resource="#CreativeArts"/>
+        <owl:disjointWith rdf:resource="#LanguageArts"/>
+        <owl:disjointWith rdf:resource="#MotorSkills"/>
+        <owl:disjointWith rdf:resource="#Science"/>
+        <owl:disjointWith rdf:resource="#Social"/>
+    </owl:Class>
+    <owl:Class rdf:ID="Science">
+        <rdfs:subClassOf rdf:resource="#Activities"/>
+        <owl:disjointWith rdf:resource="#CognitiveSkills"/>
+        <owl:disjointWith rdf:resource="#ComputerLab"/>
+        <owl:disjointWith rdf:resource="#CreativeArts"/>
+        <owl:disjointWith rdf:resource="#LanguageArts"/>
+        <owl:disjointWith rdf:resource="#MotorSkills"/>
+        <owl:disjointWith rdf:resource="#Music"/>
+        <owl:disjointWith rdf:resource="#Social"/>
+    </owl:Class>
+    <owl:Class rdf:ID="Social">
+        <rdfs:subClassOf rdf:resource="#Activities"/>
+        <owl:disjointWith rdf:resource="#CognitiveSkills"/>
+        <owl:disjointWith rdf:resource="#ComputerLab"/>
+        <owl:disjointWith rdf:resource="#CreativeArts"/>
+        <owl:disjointWith rdf:resource="#LanguageArts"/>
+        <owl:disjointWith rdf:resource="#MotorSkills"/>
+        <owl:disjointWith rdf:resource="#Music"/>
+        <owl:disjointWith rdf:resource="#Science"/>
+    </owl:Class>
+    <owl:Class rdf:ID="Teacher">
+        <owl:disjointWith rdf:resource="#Activities"/>
+        <owl:disjointWith rdf:resource="#Child"/>
+    </owl:Class>
+    <LanguageArts rdf:ID="LanguageArts1">
+        <IsTaughtBy rdf:resource="#Teacher_1"/>
+    </LanguageArts>
+    <Teacher rdf:ID="Teacher_1">
+        <Teaches rdf:resource="#Acti1"/>
+    </Teacher>
+    <owl:ObjectProperty rdf:ID="Teaches">
+        <rdfs:domain rdf:resource="#Teacher"/>
+        <owl:inverseOf rdf:resource="#IsTaughtBy"/>
+        <rdfs:range rdf:resource="#Activities"/>
+    </owl:ObjectProperty>
+</rdf:RDF>
